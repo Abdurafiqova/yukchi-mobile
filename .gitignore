@@ -1,0 +1,52 @@
+# dependencies
+node_modules/
+
+# sibling services (separate repos)
+/api/
+/web/
+/admin-panel/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# local data & scratch (never commit)
+.data/
+.shots/
+.tmp/
+.tmp-*
+*.log
+
+# design references (large, not source)
+design.html
+admin-design.html
+
+# secrets
+.env
+.env*.local
+
+# native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# typescript
+*.tsbuildinfo
+
+/ios
+/android
